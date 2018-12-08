@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void go(View view) {
+    public void start(View view) {
         TextView textView = findViewById(R.id.max_speed_text_input);
         if(textView.getText()!="")
             maxSpeed = Float.parseFloat(textView.getText().toString());
